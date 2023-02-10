@@ -1,0 +1,167 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.top, .footer{
+  background-color: #1f2937;
+  color: white;
+  padding: 1em 10em;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header .right{
+  display: flex;
+  gap: 1em;
+}
+
+.hero{
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5em;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.hero .left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+.button{
+  width: 7em;
+  height: 2em;
+  background-color: #3882F6;
+  border: white 1px solid;
+  border-radius: 0.5em;
+  color: white;
+  font-weight: 600;
+}
+.hero .right{
+  width: 50%;
+  height: auto;
+  border: 1px solid white;
+}
+.hero .main{
+  font-size: 48px;
+}
+
+.header .link, .hero .secondary{
+  font-size: 18px;
+  color: #e5e7eb
+}
+
+.header .logo{
+  font-size: 24px;
+  font-weight: 700;
+  color: #e5e7eb;
+}
+
+.hero .main{
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.body-1{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+.body-1 .logo{
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+.body-1 .container{
+  display: flex;
+}
+.container .set{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  text-align: center;
+  width: 15em;
+}
+.container .box, .container .text{
+  width: 150px;
+  height: 150px;
+  color: darkgray;
+}
+.container .box{
+  border: 3px solid #3882F6;
+  border-radius: 1em;
+}
+
+.body-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 10em;
+}
+.body-2 .quote{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 100;
+}
+.body-2 .quote-end{
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 2em;
+  margin-left: auto;
+}
+.body-3{
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  margin: 3em;
+}
+.body-3 .container{
+  display: flex;
+  gap: 5em;
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+  padding: 3em 5em;
+  background-color: #3882F6;
+  color: white;
+  border-radius: .5em;
+}
+.container .left .main{
+  font-size: 20px;
+  font-weight: 600;
+}
+.container .left .sub{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.image{
+  height: 200px;
+  width: auto;
+}
